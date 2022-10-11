@@ -91,6 +91,10 @@ a {
     text-decoration: none;
   }
 
+#title nav a{
+    margin: 0;
+}
+
 a:hover {
     color: #000;
 }
