@@ -54,7 +54,7 @@ p {
     padding: 0 10%;
     /* background-color:#83A8EE; */
     /* background-color: #9CBCF0; */
-    background-color: #3234FC;
+    background-color: #3975E6;
   }
   
 .navbar-brand {
@@ -152,6 +152,9 @@ a:hover {
 }
 
 /* educations */
+#education {
+    background-color: #1B376B;
+}
 #education p{
     color: #fff;
 }
