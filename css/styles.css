@@ -85,10 +85,15 @@ font-weight: 300;
 }
 
 /* buttons */
-button {
+a {
     margin: 5% 3% 5% 0;
+    color: #fff;
+    text-decoration: none;
   }
 
+a:hover {
+    color: #000;
+}
 /* about */
 .profile-img {
     width: 20%;
