@@ -161,6 +161,22 @@ a:hover {
 
 /* experience */
 
+
+
+/* cta */
+@media (max-width: 991px) {
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 700;
+  }  
+}
+
+
 /* contact */
 .contact-icon {
     margin: 0 3% 5% 0;
