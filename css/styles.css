@@ -120,7 +120,10 @@ a:hover {
 .skill-text {
     color: #fff;
     text-align: justify;
-    font-size: 1rem;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    /* word-spacing: -2rem; */
+    /* word-break: break-all; */
     line-height: 1.5;
 }
 
@@ -139,12 +142,17 @@ a:hover {
 #project .box {
     padding: 0;
     text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
     margin: auto;
     width: 70%;
 }
 
 .project-title {
-    text-align: left;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    
 }
 
 #project .button {
@@ -163,10 +171,14 @@ a:hover {
 
 
 
-/* cta */
-@media (max-width: 991px) {
+/* tablet */
+@media (max-width: 768px) {
   .section-heading {
     font-size: 2rem;
+  }
+
+  .button {
+    font-size: 1.5rem;
   }
 
   .sub-heading {
@@ -174,6 +186,59 @@ a:hover {
     text-align: left;
     font-weight: 700;
   }  
+
+  .skills-icon {
+    font-size: 4rem; 
+  }
+
+  #project .container-fluid {
+    padding: 7% 0%;
+  }
+
+  #about .container-fluid {
+    padding: 7% 0%;
+  }
+}
+
+/* phone */
+@media (max-width: 425px) {
+    .section-heading {
+        font-size: 1.5rem;
+    }
+
+    .big-heading {
+        font-size: 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .sub-heading {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 700;
+    }  
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .skills-icon {
+        font-size: 1.5rem; 
+    }
+
+    #project .container-fluid {
+        padding: 7% 0%;
+    }
+
+    #about .container-fluid {
+        padding: 7% 0%;
+    }
+
+    .button {
+        font-size: 1rem;
+    }
 }
 
 
