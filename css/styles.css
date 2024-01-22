@@ -4,7 +4,9 @@ body {
 }
 
 p {
-    color: #8f8f8f;
+    /*color: #8f8f8f;*/
+    color: black;
+    line-height: 1.75;
     font-size: 1rem;
 }
 
@@ -17,6 +19,11 @@ p {
 /* container */
 .container-fluid {
     padding: 7% 15%;
+}
+
+/*carousel*/
+.carousel-item {
+    max-height: 600px;
 }
 
 /* sections */
@@ -135,7 +142,7 @@ a:hover {
 
 .skills-icon {
     margin: 7px;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 /* projects */
@@ -153,7 +160,12 @@ a:hover {
     text-align: justify;
     hyphens: auto;
     -webkit-hyphens: auto;
+    font-weight: 700;
     
+}
+
+.project-field {
+    font-weight: 500;
 }
 
 #project .button {
